@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-10 13:46+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/com.github.ivantretyak.changemetadapdf.desktop.in:3
+msgid "changemetadapdf"
+msgstr ""
+
+#: ../src/ui/window.ui:13
+msgid "Select PDF"
+msgstr ""
+
+#: ../src/ui/window.ui:58
+msgid "About"
+msgstr ""
+
+#: ../src/ui/window.ui:87
+msgid "Open"
+msgstr ""
+
+#: ../src/ui/window.ui:147
+msgid "Keywords"
+msgstr ""
+
+#: ../src/ui/window.ui:174
+msgid "Author"
+msgstr ""
+
+#: ../src/ui/window.ui:201
+msgid "Theme"
+msgstr ""
+
+#: ../src/ui/window.ui:229
+msgid "Title"
+msgstr ""
+
+#: ../src/ui/about.ui:10
+msgid "Ivan Tretyak"
+msgstr ""
+
+#: ../src/ui/about.ui:11
+msgid ""
+"Это приложение распространяется без каких-либо гарантий.\n"
+"Подробнее в <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU "
+"General Public License, версии 3 или позднее</a>."
+msgstr ""
+
+#: ../src/ui/about.ui:14
+msgid "Russian - Ivan Tretyak"
+msgstr ""

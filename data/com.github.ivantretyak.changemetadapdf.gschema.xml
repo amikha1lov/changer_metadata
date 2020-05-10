@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="changemetadapdf">
+	<schema id="com.github.ivantretyak.changemetadapdf" path="/com/github/ivantretyak/changemetadapdf/ui">
+	</schema>
+</schemalist>

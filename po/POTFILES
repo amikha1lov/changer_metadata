@@ -1,0 +1,6 @@
+../data/com.github.ivantretyak.changemetadapdf.desktop.in
+../data/com.github.ivantretyak.changemetadapdf.appdata.xml.in
+../data/com.github.ivantretyak.changemetadapdf.gschema.xml
+../src/ui/window.ui
+../src/ui/about.ui
+../src/window.py

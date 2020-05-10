@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-09 23:29+0300\n"
+"PO-Revision-Date: 2020-05-09 23:31+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: ../data/com.github.ivantretyak.changemetadapdf.desktop.in:3
+msgid "changemetadapdf"
+msgstr "Изменение метадата"
+
+#: ../src/window.ui:14
+msgid "Open"
+msgstr "Открыть"
+
+#: ../src/window.ui:51
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: ../src/window.ui:78
+msgid "Author"
+msgstr "Автор"
+
+#: ../src/window.ui:105
+msgid "Theme"
+msgstr "Тема"
+
+#: ../src/window.ui:133
+msgid "Title"
+msgstr "Название"
+
+#: ../src/window.py:48
+msgid "Open Folder"
+msgstr "Открыть папку"
+
+#: ../src/window.py:51
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../src/window.py:52
+msgid "OK"
+msgstr "ОК"

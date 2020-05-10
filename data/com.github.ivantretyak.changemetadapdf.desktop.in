@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=changemetadapdf
+Exec=changemetadapdf
+Icon=com.github.ivantretyak.changemetadapdf
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
