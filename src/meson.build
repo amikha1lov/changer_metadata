@@ -1,9 +1,9 @@
 pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-moduledir = join_paths(pkgdatadir, 'changemetadapdf')
+moduledir = join_paths(pkgdatadir, 'ChangeMetadaPDF')
 gnome = import('gnome')
 
-gnome.compile_resources('changemetadapdf',
-  'changemetadapdf.gresource.xml',
+gnome.compile_resources('ChangeMetadaPDF',
+  'ChangeMetadaPDF.gresource.xml',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,
@@ -18,18 +18,18 @@ conf.set('localedir', join_paths(get_option('prefix'), get_option('localedir')))
 conf.set('pkgdatadir', pkgdatadir)
 
 configure_file(
-  input: 'changemetadapdf.in',
-  output: 'changemetadapdf',
+  input: 'ChangeMetadaPDF.in',
+  output: 'ChangeMetadaPDF',
   configuration: conf,
   install: true,
   install_dir: get_option('bindir')
 )
 
-changemetadapdf_sources = [
+ChangeMetadaPDF_sources = [
   '__init__.py',
   'main.py',
   'window.py',
   'pdf.py',
 ]
 
-install_data(changemetadapdf_sources, install_dir: moduledir)
+install_data(ChangeMetadaPDF_sources, install_dir: moduledir)

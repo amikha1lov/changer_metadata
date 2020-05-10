@@ -1,6 +1,6 @@
 #!@PYTHON@
 
-# changemetadapdf.in
+# ChangeMetadaPDF.in
 #
 # Copyright 2020 ivan-tretyak
 #
@@ -31,17 +31,17 @@ sys.path.insert(1, pkgdatadir)
 signal.signal(signal.SIGINT, signal.SIG_DFL)
 
 
-locale.bindtextdomain('com.github.ivantretyak.changemetadapdf', localedir)
-locale.textdomain('com.github.ivantretyak.changemetadapdf')
-gettext.bindtextdomain('com.github.ivantretyak.changemetadapdf', localedir)
-gettext.textdomain('com.github.ivantretyak.changemetadapdf')
+locale.bindtextdomain('com.github.ivantretyak.ChangeMetadaPDF', localedir)
+locale.textdomain('com.github.ivantretyak.ChangeMetadaPDF')
+gettext.bindtextdomain('com.github.ivantretyak.ChangeMetadaPDF', localedir)
+gettext.textdomain('com.github.ivantretyak.ChangeMetadaPDF')
 
 if __name__ == '__main__':
     import gi
 
     from gi.repository import Gio
-    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'changemetadapdf.gresource'))
+    resource = Gio.Resource.load(os.path.join(pkgdatadir, 'ChangeMetadaPDF.gresource'))
     resource._register()
 
-    from changemetadapdf import main
+    from ChangeMetadaPDF import main
     sys.exit(main.main(VERSION))

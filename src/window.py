@@ -23,7 +23,7 @@ from locale import gettext as _
 import os
 
 
-@Gtk.Template(resource_path='/com/github/ivantretyak/changemetadapdf/ui/about.ui')
+@Gtk.Template(resource_path='/com/github/ivantretyak/ChangeMetadaPDF/ui/about.ui')
 class About_dialog(Gtk.AboutDialog):
 
    __gtype_name__ = "_about_dialog"
@@ -33,7 +33,7 @@ class About_dialog(Gtk.AboutDialog):
 
 
 
-@Gtk.Template(resource_path='/com/github/ivantretyak/changemetadapdf/ui/window.ui')
+@Gtk.Template(resource_path='/com/github/ivantretyak/ChangeMetadaPDF/ui/window.ui')
 class ChangemetadapdfWindow(Gtk.ApplicationWindow):
 
     __gtype_name__ = 'ChangemetadapdfWindow'

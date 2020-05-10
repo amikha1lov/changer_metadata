@@ -17,8 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../data/com.github.ivantretyak.changemetadapdf.desktop.in:3
-msgid "changemetadapdf"
+#: ../data/com.github.ivantretyak.ChangeMetadaPDF.desktop.in:3
+msgid "ChangeMetadaPDF"
 msgstr ""
 
 #: ../src/ui/window.ui:13

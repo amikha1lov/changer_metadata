@@ -26,7 +26,7 @@ from .window import ChangemetadapdfWindow
 
 class Application(Gtk.Application):
     def __init__(self):
-        super().__init__(application_id='com.github.ivantretyak.changemetadapdf',
+        super().__init__(application_id='com.github.ivantretyak.ChangeMetadaPDF',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
 
     def do_activate(self):

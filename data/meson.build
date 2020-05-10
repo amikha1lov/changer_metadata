@@ -1,6 +1,6 @@
 desktop_file = i18n.merge_file(
-  input: 'com.github.ivantretyak.changemetadapdf.desktop.in',
-  output: 'com.github.ivantretyak.changemetadapdf.desktop',
+  input: 'com.github.ivantretyak.ChangeMetadaPDF.desktop.in',
+  output: 'com.github.ivantretyak.ChangeMetadaPDF.desktop',
   type: 'desktop',
   po_dir: '../po',
   install: true,
@@ -15,8 +15,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-  input: 'com.github.ivantretyak.changemetadapdf.appdata.xml.in',
-  output: 'com.github.ivantretyak.changemetadapdf.appdata.xml',
+  input: 'com.github.ivantretyak.ChangeMetadaPDF.appdata.xml.in',
+  output: 'com.github.ivantretyak.ChangeMetadaPDF.appdata.xml',
   po_dir: '../po',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'appdata')
@@ -29,7 +29,7 @@ if appstream_util.found()
   )
 endif
 
-install_data('com.github.ivantretyak.changemetadapdf.gschema.xml',
+install_data('com.github.ivantretyak.ChangeMetadaPDF.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
 )
 

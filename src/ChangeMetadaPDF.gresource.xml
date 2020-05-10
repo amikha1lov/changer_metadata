@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/com/github/ivantretyak/changemetadapdf">
+  <gresource prefix="/com/github/ivantretyak/ChangeMetadaPDF">
     <file>ui/window.ui</file>
     <file>ui/about.ui</file>
   </gresource>

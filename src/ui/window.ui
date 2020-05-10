@@ -37,7 +37,7 @@
   </object>
   <template class="ChangemetadapdfWindow" parent="GtkApplicationWindow">
     <property name="can_focus">False</property>
-    <property name="icon_name">accessories-calculator</property>
+    <property name="icon">../../data/icons/com.github.ivantretyak.ChangeMetadaPDF-192.png</property>
     <child type="titlebar">
       <object class="GtkHeaderBar" id="_headerbar">
         <property name="visible">True</property>

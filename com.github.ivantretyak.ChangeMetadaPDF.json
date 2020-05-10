@@ -1,11 +1,10 @@
 {
-    "app-id" : "com.github.ivantretyak.changemetadapdf",
+    "app-id" : "com.github.ivantretyak.ChangeMetadaPDF",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "3.36",
     "sdk" : "org.gnome.Sdk",
-    "command" : "changemetadapdf",
+    "command" : "ChangeMetadaPDF",
     "finish-args" : [
-        "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland"
@@ -53,7 +52,6 @@
     ],
     "build-options" : {
         "env" : {
-            "LANG" : "ru_RU.utf8"
         }
     }
 }
